@@ -1,0 +1,39 @@
+{
+  "@@last_modified": "2019-07-23T15:01:56.897493",
+  "title": "ethSync",
+  "@title": {
+    "description": "Title for the Demo application",
+    "type": "text",
+    "placeholders": {}
+  },
+  "about": "Sur -fr",
+  "@about": {
+    "description": "Title for the Demo application",
+    "type": "text",
+    "placeholders": {}
+  },
+  "contact": "contacte en fr",
+  "@contact": {
+    "description": "contact",
+    "type": "text",
+    "placeholders": {}
+  },
+  "ethTextIntro": "Bonjour France. \nHello and welcome to ethereum sync.This app aims to provide the information needed to successfully intall and then synchronise your computer with ethereum.",
+  "@ethTextIntro": {
+    "description": "into txt",
+    "type": "text",
+    "placeholders": {}
+  },
+  "ethTextFonts": "λ \n\tgreek lambda \nᚈ \n\togham tinne \nか \n\tjapanese ka \n万 \n\tcjk ideograph 10,000 \n䷁ \n\tiching \nጀ \n\tethiopic symbol \n𓂀 \n\tegyptian eye",
+  "@ethTextFonts": {
+    "description": "into txt",
+    "type": "text",
+    "placeholders": {}
+  },
+  "ethImgTermGreen": "1st premier vert terminal epage",
+  "@ethImgTermGreen": {
+    "description": "img",
+    "type": "text",
+    "placeholders": {}
+  }
+}
