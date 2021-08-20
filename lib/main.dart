@@ -18,8 +18,8 @@ class ethSync extends StatelessWidget {
     print(myLocale.toString() + ' on EthSyncPageStateless');
     return MaterialApp(
       // title: 'Localizations Sample App',
-      onGenerateTitle: (BuildContext context) =>
-          EthSyncLocalizations.of(context).title,
+      // onGenerateTitle: (BuildContext context) =>
+      //     EthSyncLocalizations.of(context).title,
       localizationsDelegates: [
         // AppLocalizations.localizationsDelegates,
         // AppLocalizations.delegate,
@@ -67,14 +67,16 @@ class MyHomePage extends StatelessWidget {
 // flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/main.dart
 // flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/ethsync_EthSyncLocalizations.dart
 // flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/ethsync_localizations.dart
+// create  /lib/l10n
 
 // flutter pub run intl_tran slation:generate_from_arb \
 // --output-dir=lib/l10n --no-use-deferred-loading \
 // lib/main.dart lib/l10n/intl_*.arb
 
-// new 20210803
+// new 20210803 + 20
 // flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/main.dart lib/l10n/intl_*.arb
 // No @@locale or _locale field found in intl_messages, assuming 'messages' based on the file name.
+// + messages_all + messages.messages
 
 // flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading
 //  lib/ethsync_EthSyncLocalizations.dart lib/l10n/intl_*.arb

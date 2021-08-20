@@ -57,7 +57,7 @@ class EthSyncLocalizations {
 
   String get ethTextFonts {
     return Intl.message(
-      '\n\n\u03BB \ngreek lambda \n\u1688 \nogham tinne \n\u304B \njapanese ka \n\u4E07 \ncjk ideograph 10,000 \n\u4DC1 \niching \n\u1300 \nethiopic symbol \n\u{13080} \negyptian eye \nargentina hello  \desccughengoui',
+      '\n\n\u03BB \ngreek lambda tonight for sure \n\u1688 \nogham tinne \n\u304B \njapanese ka \n\u4E07 \ncjk ideograph 10,000 \n\u4DC1 \niching \n\u1300 \nethiopic symbol \n\u{13080} \negyptian eye \nargentina hello buenas \desccughengoui',
       name: 'ethTextFonts',
       desc: 'into txt',
     );
@@ -71,6 +71,8 @@ class EthSyncLocalizations {
       "\n\nThe collapse of the DAO project in 2016 caused a split, fork between the original chain, ethereum classic ETC, and the new ethereum ETH. "
       "\n\nEthereum was quiet then for another year until mid-end of 2017 when cryptocurrencies in gnereal became noted and admired for their Distributed Ledger Technology "
       "and also as instruments of monetary exchange.\n",
+      name: 'ethTextFounders',
+      desc: 'into txt',
     );
   }
 

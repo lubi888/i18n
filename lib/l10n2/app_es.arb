@@ -1,5 +1,6 @@
 {
-  "@@last_modified": "2021-08-20T01:05:35.949471",
+  "@@locale": "es",
+  "@@last_modified": "2021-08-03T12:37:33.716587",
   "title": "ethSync",
   "@title": {
     "description": "Title for the Demo application",
@@ -24,15 +25,15 @@
     "type": "text",
     "placeholders": {}
   },
-  "ethTextFonts": "\n\nλ \ngreek lambda \nᚈ \nogham tinne \nか \njapanese ka \n万 \ncjk ideograph 10,000 \n䷁ \niching \nጀ \nethiopic symbol \n𓂀 \negyptian eye \nargentina hello buenas desccughengoui",
+  "ethTextFonts": "\n\n spanish. \nλ \n\tgreek lambda \nᚈ \n\togham tinne \nか \n\tjapanese ka \n万 \n\tcjk ideograph 10,000 \n䷁ \n\tiching \nጀ \n\tethiopic symbol \n𓂀 \n\tegyptian eye",
   "@ethTextFonts": {
     "description": "into txt",
     "type": "text",
     "placeholders": {}
   },
-  "ethTextFounders": "\nWho are the founders of Ethereum?\n\nEthereum was proposed in late 2013 by programmer Vitalik Buterin. An online crowdsale took place in the summer of 2014 to raise funds. \n\nThe ethereum system went live in 2015.07.30 and the origianl authors were Vitalik Buterin, Joseph Lubin and Gavin Wood. \n\nThe collapse of the DAO project in 2016 caused a split, fork between the original chain, ethereum classic ETC, and the new ethereum ETH. \n\nEthereum was quiet then for another year until mid-end of 2017 when cryptocurrencies in gnereal became noted and admired for their Distributed Ledger Technology and also as instruments of monetary exchange.\n",
+  "ethTextFounders": "\nWho are the founders of Ethereum?\n\nEthereum was proposed in late 2013 by programmer Vitalik Buterin. An online crowdsale took place in the summer of 2014 to raise funds. \n\nThe ethereum system went live in 2015.07.30 and the origianl authors were Vitalik Buterin, Joseph Lubin and Gavin Wood. \n\nThe collapse of the DAO project in 2016 caused a split, fork between the original chain, ethereum classic ETC, and the new ethereum ETH. \n\nEthereum was quiet then for another year until mid-end of 2017 when cryptocurrencies in gnereal became noted and admired for their Distributed Ledger Technology and also as instruments of monetary exchange.\n\nWho are the founders of Ethereum?\n\nEthereum was proposed in late 2013 by programmer Vitalik Buterin. An online crowdsale took place in the summer of 2014 to raise funds. \n\nThe ethereum system went live in 2015.07.30 and the origianl authors were Vitalik Buterin, Joseph Lubin and Gavin Wood. \n\nThe collapse of the DAO project in 2016 caused a split, fork between the original chain, ethereum classic ETC, and the new ethereum ETH. \n\nEthereum was quiet then for another year until mid-end of 2017 when cryptocurrencies in gnereal became noted and admired for their Distributed Ledger Technology and also as instruments of monetary exchange.\n",
   "@ethTextFounders": {
-    "description": "into txt",
+    "description": "into txt founders",
     "type": "text",
     "placeholders": {}
   },
