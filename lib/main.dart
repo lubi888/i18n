@@ -33,7 +33,8 @@ class ethSync extends StatelessWidget {
         // AppLocalizations.supportedLocales,
         Locale('en', ''), // English,
         Locale('es', ''), // Spanish, no country code
-        // Locale('fr', ''), // French
+        Locale('de', ''),
+        Locale('fr', ''), // French
         // Try to match the languageCode, scriptCode, and countryCode with one in supportedLocales.
       ],
       theme: ThemeData(
@@ -69,6 +70,9 @@ class MyHomePage extends StatelessWidget {
 // flutter pub run intl_translation:extract_to_arb --output-dir=lib/l10n lib/ethsync_localizations.dart
 // create  /lib/l10n
 
+// i18n> flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/main.dart lib/l10n/intl_de.arb
+// No @@locale or _locale field found in intl_de, assuming 'de' based on the file name.
+
 // flutter pub run intl_tran slation:generate_from_arb \
 // --output-dir=lib/l10n --no-use-deferred-loading \
 // lib/main.dart lib/l10n/intl_*.arb
@@ -77,6 +81,11 @@ class MyHomePage extends StatelessWidget {
 // flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/main.dart lib/l10n/intl_*.arb
 // No @@locale or _locale field found in intl_messages, assuming 'messages' based on the file name.
 // + messages_all + messages.messages
+
+// flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/main.dart lib/l10n/intl_es.arb lib/l10n/intl_de.arb lib/l10n/intl_messages.arb
+// flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/ethsync_localizations.dart lib/l10n/intl_es.arb lib/l10n/intl_de.arb lib/l10n/intl_messages.arb
+// flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/l10n/intl_es.arb lib/l10n/intl_de.arb lib/l10n/intl_*.arb
+// flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading lib/main.dart lib/ethsync_localizations.dart lib/l10n/intl_es.arb lib/l10n/intl_de.arb lib/l10n/intl_messages.arb
 
 // flutter pub run intl_translation:generate_from_arb --output-dir=lib/l10n --no-use-deferred-loading
 //  lib/ethsync_EthSyncLocalizations.dart lib/l10n/intl_*.arb

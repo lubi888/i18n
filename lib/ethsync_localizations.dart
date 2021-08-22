@@ -57,7 +57,7 @@ class EthSyncLocalizations {
 
   String get ethTextFonts {
     return Intl.message(
-      '\n\n\u03BB \ngreek lambda tonight for sure \n\u1688 \nogham tinne \n\u304B \njapanese ka \n\u4E07 \ncjk ideograph 10,000 \n\u4DC1 \niching \n\u1300 \nethiopic symbol \n\u{13080} \negyptian eye \nargentina hello buenas \desccughengoui',
+      '\n\n\u03BB \ngreek lambda lam \n\u1688 \nogham tinne \n\u304B \njapanese ka \n\u4E07 \ncjk ideograph 10,000 \n\u4DC1 \niching \n\u1300 \nethiopic symbol \n\u{13080} \negyptian eye \nargentina hello buenas \desccughengoui',
       name: 'ethTextFonts',
       desc: 'into txt',
     );
